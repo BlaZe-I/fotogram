@@ -40,7 +40,7 @@
     display: flex;
     justify-content: center;
     width: 375px;
-    background: rgba(69, 1, 255, 0.267);
+    background: rgba(1, 70, 29, 0.674);
     padding: 6px 10px;
     font-family: 'Baloo Bhaina 2';
     font-style: normal;
@@ -59,9 +59,34 @@ h2 {
     font-weight: 400;
     justify-content: center;
     display: flex;
-
+    margin-bottom: 30px;
+    color:  white;
+    padding-top: 15px;
 }
 
-#main-section{
-    background-color: rgba(102, 104, 80, 0.274);
+#main-section {
+    background-image: url(./asset/img/waben.png);
+    justify-content: center;
+}
+
+.pictureone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.pictureone img {
+    width: 48%;
+    height: 145px;
+
+    border-radius: 10px;
+}
+
+.da{
+    color: black;
+    display: flex;
+    justify-content: center;
+   padding-top: 14px;
+   background-color: rgba(1, 70, 29, 0.674);
 }
