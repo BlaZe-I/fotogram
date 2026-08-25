@@ -26,11 +26,17 @@
 
         <dialog id="dialog" closedby="any" class="dia">
             <img id="dialog-img" src="" alt="Bild">
-
-             <button class="close-button" onclick="closeDialog()">X</button>
+           <p id="dialog-title"></p>
+            <img class="close-icon" src="./asset/icons/close.png" onclick="closeDialog()">
             <div class="dialog-buttons">
-                <button onclick="previousPicture()">←</button>
-                <button onclick="nextPicture()">→</button>
+                <button class="links" onclick="previousPicture()">
+                    <img src="./asset/icons/Property 1=Default (1).png" alt="">
+                </button>
+                <p id="imageCounter">1 / 1</p>
+                <button onclick="nextPicture()">
+                    <img src="./asset/icons/Property 1=Default (1).png" alt="">
+                </button>
+
             </div>
 
         </dialog>
